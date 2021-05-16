@@ -1,0 +1,30 @@
+header {
+    background-color: #4671d557;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+header img {
+    border-radius: 50%;
+}
+
+.search {
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    box-shadow: none;
+    background-color: #6c8cd5;
+    color: white;
+    font-size: 1rem;
+    border: 2px solid white;
+}
+.search:focus {
+    outline: none;
+    background-color: #4671d5;
+}
+::placeholder {
+    color: white;
+    font-size: 1.2em;
+}

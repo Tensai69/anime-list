@@ -1,0 +1,29 @@
+.pagination {
+  background-color: #4671d5;
+  padding: 1.3rem;
+  display: flex;
+  justify-content: space-around;
+}
+.nav {
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: none;
+  background-color: #6c8cd5;
+
+  font-size: 20px;
+}
+.nav span {
+  padding: 1rem;
+  cursor: default;
+  color: white;
+}
+.nav a span {
+  cursor: pointer;
+}
+.nav a span:hover {
+  color: #8FA5D4;
+
+}
+.nav a span:focus{
+
+}

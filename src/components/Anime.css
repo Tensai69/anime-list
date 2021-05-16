@@ -1,0 +1,94 @@
+.anime {
+    background-color: #4671d5;
+    min-width: 300px;
+    width: 300px;
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    position: relative;
+}
+
+.anime img {
+    width: 100%;
+    height: 400px;
+}
+.anime-info {
+    display: flex;
+    padding: 0.1rem;
+    align-items: center;
+    flex-flow: column;
+    margin: 0.5rem;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 200px;
+    max-height: 200px;
+}
+.anime-info-title {
+    margin: 10px 0;
+
+    flex: 2;
+    text-align: center;
+}
+
+.infoButton {
+    margin: 1rem;
+    padding: 0.5rem;
+    width: 10vw;
+    min-width: 50px;
+    max-width: 100px;
+    min-height: 30px;
+    border-radius: 20px;
+    border: none;
+    background: #6c8cd5;
+    color: white;
+    flex: 1;
+    font-size: 20px;
+}
+.infoButton:focus {
+    outline: none;
+}
+.infoButton:hover {
+    cursor: pointer;
+    background: #8FA5D4;
+}
+.tag {
+    background-color: #6c8cd5;
+    padding: 0.3rem;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+.tag.green {
+    color: rebeccapurple;
+}
+.tag.orange {
+    color: orange;
+}
+.tag.red {
+    color: red;
+}
+.tag.gold {
+    color: rgb(255, 251, 0);
+}
+.tag.common {
+    color: grey;
+}
+/*.anime-desc {
+  background-color: grey;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0.5rem;
+  transform: translateY(110%);
+  transition: transform ease-in-out 0.3s;
+  overflow: auto;
+  max-height: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.anime:hover .anime-desc {
+  transform: translateY(0%);
+}*/

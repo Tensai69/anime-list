@@ -1,0 +1,20 @@
+.homeButton {
+    margin: 1rem;
+    padding: 0.5rem;
+    width: 10vw;
+    min-width: 50px;
+    max-width: 100px;
+    min-height: 30px;
+    border-radius: 20px;
+    background: #6c8cd5;
+    color: white;
+    border: 1px solid black;
+    font-size: 20px;
+}
+.homeButton:focus {
+    outline: none;
+}
+.homeButton:hover {
+    cursor: pointer;
+    background: #8FA5D4;
+}
